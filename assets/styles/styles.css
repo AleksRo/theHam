@@ -187,18 +187,101 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #1c2a33;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    border-top: 7px solid #18cfab;
 }
 
 #form1 {
     background-color: #18cfab;
+    border-top: 7px solid white;
 }
 
 .form_text {
     text-transform: uppercase;
     color:#18cfab;
+    margin: 44px 0 0 0;
+    font-size: 20px;
 }
 
 .form_text1 {
     text-transform: uppercase;
     color:white;
+    margin: 57px 0 0 0;
+    font-size: 20px;
+}
+
+.col_first {
+    max-width: 327px;
+    line-height: 1.6em;
+}
+
+.text_col {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.text_col1 {
+    font-size: 18px;
+}
+
+.text_col2 {
+    font-size: 36px;
+    margin: 105px 0 102px 0;
+}
+
+
+.features {
+    margin-top: 47px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features_icon {
+    max-width: 31px;
+    margin-bottom: 6px;
+    margin-right: 10px;
+}
+
+@media (max-width: 992px) {
+    .icon_item {
+        width: 100%;
+        height: auto;
+    }
+    .forms {
+        flex-wrap: wrap;
+    }
+    .form {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .features {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .col_first {
+        max-width: 100%;
+    }
+    .text_col2 {
+        margin: 66px 0 55px 0;
+    }
+}
+
+/* Section 4 About Company */
+
+.intro_about {
+    max-width: 1900px;
+    width: 100%;
+    background-image: url("assets/images/intro.jpg");
+    margin-top: 86px;
+    height: 606px;
+}
+
+.title_about {
+    color: white;
+}
+
+.sub_title_about {
+    display: flex;
 }
