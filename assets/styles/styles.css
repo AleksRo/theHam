@@ -329,3 +329,15 @@ h1, h2, h3, h4, h5, h6 {
 .bg-danger1 {
     background-color: #bb8a36 !important;
 }
+
+.progress-bar-text {
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: left;
+    align-items: center;
+}
+
+p.progress-bar-text {
+    margin: 0px;
+    margin-left: 10px;
+}
