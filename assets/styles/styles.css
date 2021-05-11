@@ -213,6 +213,7 @@ h1, h2, h3, h4, h5, h6 {
 .col_first {
     max-width: 327px;
     line-height: 1.6em;
+    margin-left: 60px;
 }
 
 .text_col {
@@ -262,6 +263,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     .col_first {
         max-width: 100%;
+        margin-left: 0px;
     }
     .text_col2 {
         margin: 66px 0 55px 0;
@@ -273,15 +275,57 @@ h1, h2, h3, h4, h5, h6 {
 .intro_about {
     max-width: 1900px;
     width: 100%;
-    background-image: url("assets/images/intro.jpg");
+    background: url(../images/intro.jpg) no-repeat center;
+    background-size: cover;
     margin-top: 86px;
-    height: 606px;
 }
 
 .title_about {
     color: white;
+    padding-top: 91px;
+    font-size: 36px;
 }
 
 .sub_title_about {
+    font-size: 16px;
+    color: white;
+    margin-top: 74px;
+    margin-bottom: 65px;
+}
+
+.sub_about {
+    margin-top: 100px;
     display: flex;
+    justify-content: flex-end;
+}
+
+.progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: 0.75rem;
+    border-radius: 0.25rem;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    background-color: transparent;
+    height: 39px;
+}
+.bg-success {
+    background-color: #9c5da5 !important;
+}
+
+.progress-bar {
+    border-radius: 0.2em; 
+}
+
+.bg-warning {
+    background-color: #d67f7f !important;
+}
+
+.bg-danger {
+    background-color: #20bc9d !important;
+}
+
+.bg-danger1 {
+    background-color: #bb8a36 !important;
 }
