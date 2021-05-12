@@ -365,3 +365,28 @@ p.progress-bar-text {
 .about-work-title {
     margin-top: 85px;
 }
+
+.img_block {
+    width: 21%;
+}
+
+.work_icon {
+    width: 31px;
+    margin-top: 56px;
+}
+
+.title-text-creative {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.title-text-creative1 {
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.creative-block {
+    margin-left: 10px;
+}
