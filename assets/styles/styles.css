@@ -341,3 +341,27 @@ p.progress-bar-text {
     margin: 0px;
     margin-left: 10px;
 }
+
+/* Section 5 */
+
+.btn-section:hover {
+    border-top: 1px solid #18cfab;
+}
+
+
+.btn-section {
+    border: 1px solid #ebebeb;
+    background-color: #ffffff;
+    color:#717171;
+    width: 100%;
+    min-width: 135px;
+    height: auto;
+}
+
+.btn-section-block {
+    margin-top: 52px;
+}
+
+.about-work-title {
+    margin-top: 85px;
+}
