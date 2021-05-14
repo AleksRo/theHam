@@ -390,3 +390,19 @@ p.progress-bar-text {
 .creative-block {
     margin-left: 10px;
 }
+
+.work-img {
+    width: 100%;
+    max-width: 216px;
+}
+
+.imagetiles .col-lg-3.col-md-3.col-sm-3.col-xs-6 {
+    padding: 0px;
+}
+
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+  
