@@ -407,3 +407,52 @@ p.progress-bar-text {
     width: 100%;
 }
   
+
+.text-title {
+    margin: 100px 0 100px 0;
+}
+
+
+.btn-sec {
+    margin: 0px 0 75px 0;
+}
+
+.img-icon {
+    margin: 0 0 0 0;
+}
+
+.text-creative {
+    align-items: center;
+}
+
+.btn-work {
+    border-radius: 0em;
+    color: #717171;
+    background-color: white;
+    border: 1px solid #ebebeb;
+    padding: 13px 0px 13px 0px;
+    font-size: 14px;
+}
+
+.btn-work:hover {
+    color: #18cfab;
+    border-top: #18cfab !important;
+    background-color: white;
+    border: 1px solid #ebebeb;
+    transition: none;
+}
+
+.title-creative {
+  color: #18cfab;
+  font-size: 14px;
+  margin-top: 22px;
+}
+
+.text-creative {
+    color: #717171;
+    font-size: 14px;
+}
+
+.img-block {
+    margin-top: 22px;
+}
