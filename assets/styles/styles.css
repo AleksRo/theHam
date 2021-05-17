@@ -175,13 +175,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .forms {
- display: flex;
- flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .form {
     display: flex;
-    max-width: 480px; 
+    max-width: 480px;
     height: 378px;
     width: 100%;
     background-color: #1c2a33;
@@ -198,14 +198,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .form_text {
     text-transform: uppercase;
-    color:#18cfab;
+    color: #18cfab;
     margin: 44px 0 0 0;
     font-size: 20px;
 }
 
 .form_text1 {
     text-transform: uppercase;
-    color:white;
+    color: white;
     margin: 57px 0 0 0;
     font-size: 20px;
 }
@@ -229,7 +229,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 36px;
     margin: 105px 0 102px 0;
 }
-
 
 .features {
     margin-top: 47px;
@@ -310,12 +309,13 @@ h1, h2, h3, h4, h5, h6 {
     background-color: transparent;
     height: 39px;
 }
+
 .bg-success {
     background-color: #9c5da5 !important;
 }
 
 .progress-bar {
-    border-radius: 0.2em; 
+    border-radius: 0.2em;
 }
 
 .bg-warning {
@@ -348,11 +348,10 @@ p.progress-bar-text {
     border-top: 1px solid #18cfab;
 }
 
-
 .btn-section {
     border: 1px solid #ebebeb;
     background-color: #ffffff;
-    color:#717171;
+    color: #717171;
     width: 100%;
     min-width: 135px;
     height: auto;
@@ -406,12 +405,11 @@ p.progress-bar-text {
     max-width: 100%;
     width: 100%;
 }
-  
 
 .text-title {
     margin: 100px 0 100px 0;
+    font-size: 36px;
 }
-
 
 .btn-sec {
     margin: 0px 0 75px 0;
@@ -436,15 +434,15 @@ p.progress-bar-text {
 
 .btn-work:hover {
     color: #18cfab;
-    border-top: #18cfab !important;
-    background-color: white;
     border: 1px solid #ebebeb;
+    background-color: white;
+    border-top: 1px solid #18cfab;
 }
 
 .title-creative {
-  color: #18cfab;
-  font-size: 14px;
-  margin-top: 22px;
+    color: #18cfab;
+    font-size: 14px;
+    margin-top: 22px;
 }
 
 .text-creative {
@@ -456,6 +454,84 @@ p.progress-bar-text {
     margin-top: 46px;
 }
 
+.btn-load {
+    background-color: #18cfab;
+    border-color: #18cfab;
+    font-size: 14px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 50px;
+    margin-left: 19px;
+    margin-bottom: 66px;
+}
+
+.img-btn-load {
+    width: 12%;
+    padding: 0px 0px 4px 0px;
+}
+
+.btn-load:hover {
+    background-color: #18cfab;
+    border-color: #18cfab;
+}
+
+/*SEC6*/
+
+.intro-sec6 {
+    max-width: 1900px;
+    width: 100%;
+    background-color: #ffffff;
+    border-top: 1px solid #e1e1e1;
+}
+
+.btn-work1:hover  {
+   background-color: #18cfab;
+   border: none;
+}
+
+.btn-work1 {
+    border-radius: 0em;
+    color: #717171;
+    background-color: #f8fcfe;
+    border: 1px solid #ebebeb;
+    padding: 13px 0px 13px 0px;
+    font-size: 14px;
+}
+
+.arrow-btn {
+    content: '';
+    border: 10px solid transparent;
+    position: absolute;
+    border-bottom: 10px solid rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 31px;
+    top: 47px;
+    transform: rotate(180deg);
+}
+
+.btn-sec1 {
+    margin-top: 77px;
+}
+
+.title-services {
+    color: #0a0a0a;
+    font-size: 36px;
+    margin-top: 84px;
+}
+
+.img-responsive1 {
+    width: 217px;
+}
+
+.block-sec6 {
+    margin-top: 35px;
+    margin-bottom: 34px;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-sec6 {
+    margin-left: 26px;
+}
 
 @media (max-width: 1200px) {
     .img-block {
@@ -469,7 +545,7 @@ p.progress-bar-text {
     }
     .text-creative {
         margin: 0px;
-    } 
+    }
 }
 
 @media (max-width: 768px) {
@@ -478,10 +554,10 @@ p.progress-bar-text {
     }
     .text-creative {
         margin: 0px;
-    } 
+    }
     .title-creative {
         margin-top: 0px;
-    }   
+    }
 }
 
 @media (max-width: 576px) {
