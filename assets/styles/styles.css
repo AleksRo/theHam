@@ -92,6 +92,7 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 1px solid #18cfab;
 }
 
+
 @media (min-width: 992px) {
     .navbar {
         padding: 0;
@@ -689,6 +690,128 @@ p.progress-bar-text {
     background-color: #18cfab;
     border-top: 7px solid #25333c;
 }   
+
+/*SEC10 pricing */
+
+.pricing_title {
+    font-size: 36px;
+    margin: 72px 0 112px 0px;
+}
+
+.pricing__card {
+    background-color: #f8fcfe;
+    border: 1px solid #e8eaea;
+    margin: 0 1px 0 0px;
+    width: 100%;
+    max-width: 276px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.pricing__personal {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.pricing_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 65px;
+}
+
+.pricing__price {
+    border: 1px solid #e8eaea;
+    text-align: center;
+    font-size: 40px;
+    padding: 26px 85px;
+    background-color: #2e4a5b;
+    color: white;
+}
+
+.personal__title {
+    font-size: 24px;
+    padding: 20px 0 16px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #717171;
+}
+
+.pricing__list__item {
+    border: 1px solid #e8eaea;
+    font-size: 14px;
+    color: #777777;
+    padding: 16px 10px;
+}
+
+.pricing__price2 {
+    color: white;
+    font-size: 14px;
+}
+
+.pricing__list {
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+}
+
+.btn__pricing {
+    width: 100%;
+    max-width: 171px;
+    background-color: #2e4a5b;
+    color: white;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 19px;
+}
+
+.pricing__card:hover .btn__pricing {
+    background-color: #18cfab;
+}
+
+.pricing__card:hover .personal__title {
+    color: #18cfab;
+}
+
+.pricing__card:hover .pricing__price {
+    background-color: #18cfab;
+}
+
+.pricing__card:hover {
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.pricing__card:hover .prise-green {
+    background-color: #18cfab;
+}
+
+.ribon__title {
+    font-size: 15px;
+}
+
+.price_ribon {
+    width: 143px;
+    padding: 3px;
+    position: absolute;
+    text-align: center;
+    color: #f0f0f0;
+    left: 180px;
+    top: 11px;
+  }
+
+  .prise-green {
+    background-color:#2e4a5b;
+    transform: rotate(45deg);
+}
+
 
 @media (max-width: 992px) {
     .fanfacts-row {
