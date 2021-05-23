@@ -92,7 +92,6 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 1px solid #18cfab;
 }
 
-
 @media (min-width: 992px) {
     .navbar {
         padding: 0;
@@ -484,9 +483,9 @@ p.progress-bar-text {
     border-top: 1px solid #e1e1e1;
 }
 
-.btn-work1:hover  {
-   background-color: #18cfab;
-   border: none;
+.btn-work1:hover {
+    background-color: #18cfab;
+    border: none;
 }
 
 .btn-work1 {
@@ -534,7 +533,6 @@ p.progress-bar-text {
     margin-left: 26px;
 }
 
-
 /*SEC7*/
 
 .intro-sec7 {
@@ -561,7 +559,7 @@ p.progress-bar-text {
 
 .title-everything {
     font-size: 40px;
-    color:#18cfab;
+    color: #18cfab;
     margin-top: 10px;
 }
 
@@ -570,7 +568,6 @@ p.progress-bar-text {
     color: white;
     margin-top: 16px;
 }
-
 
 /*SEC8*/
 
@@ -635,7 +632,6 @@ p.progress-bar-text {
     color: #18cfab;
 }
 
-
 /*SEC9*/
 
 .fanfacts {
@@ -689,7 +685,7 @@ p.progress-bar-text {
 #fanfacts__card__bg {
     background-color: #18cfab;
     border-top: 7px solid #25333c;
-}   
+}
 
 /*SEC10 pricing */
 
@@ -714,7 +710,6 @@ p.progress-bar-text {
     position: relative;
     overflow: hidden;
 }
-
 
 .pricing_row {
     display: flex;
@@ -805,11 +800,117 @@ p.progress-bar-text {
     color: #f0f0f0;
     left: 180px;
     top: 11px;
-  }
+}
 
-  .prise-green {
-    background-color:#2e4a5b;
+.prise-green {
+    background-color: #2e4a5b;
     transform: rotate(45deg);
+}
+
+/*SEC10 info-ham */
+
+.intro-info-ham {
+    background-color: #2e404d;
+    max-width: 1900px;
+    width: 100%;
+}
+
+.info-ham__title {
+    font-size: 36px;
+    color: white;
+    padding: 93px 0;
+}
+
+.info-ham__discription {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-ham-img {
+    width: 100%;
+    max-width: 48px;
+}
+
+.info-ham__text {
+    color: #bbbbbb;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 1050px;
+    text-align: center;
+}
+
+.info-ham__card-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-ham__card-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-ham__card-image-block {
+    border: 2px solid #2fc27d;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.info-ham-img1 {
+    border-radius: 50%;
+    position: absolute;
+    left: -33px;
+    max-width: 206px;
+}
+
+.info-ham__card-image-block:hover {
+    box-shadow: 1px 0px 6px 7px rgb(125 250 208 / 20%);
+}
+
+.info-ham__card {
+    border: 2px solid #2b5f62;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.info-ham-img2 {
+    border-radius: 50%;
+    position: absolute;
+    left: -23px;
+    max-width: 88px;
+}
+
+.info-ham__name {
+    font-size: 16px;
+    color: #18cfab;
+    font-weight: bold;
+    margin-top: 36px;
+}
+
+.info-ham__job {
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    margin-top: 13px;
+    margin-bottom: 25px;
+}
+    
+.info-ham__row-group-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 100px;
 }
 
 
@@ -821,6 +922,7 @@ p.progress-bar-text {
         max-width: 100%;
     }
 }
+
 @media (max-width: 1200px) {
     .card-row {
         flex-wrap: nowrap;
