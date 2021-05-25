@@ -495,21 +495,25 @@ p.progress-bar-text {
     border: 1px solid #ebebeb;
     padding: 13px 0px 13px 0px;
     font-size: 14px;
+    width: 100%;
+    max-width: 120px;
 }
 
-.arrow-btn {
+.btn-work1:hover .arrow-btn {
     content: '';
     border: 10px solid transparent;
     position: absolute;
-    border-bottom: 10px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 10px solid #18cfab;
     position: absolute;
-    left: 31px;
+    left: 45px;
     top: 47px;
     transform: rotate(180deg);
 }
 
 .btn-sec1 {
     margin-top: 77px;
+    display: flex;
+    justify-content: center;
 }
 
 .title-services {
@@ -914,7 +918,287 @@ p.progress-bar-text {
 }
 
 
+/*SEC11 team */
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-row {
+    display: flex;
+    margin-bottom: 102px;
+}
+
+    
+.team_title {
+    font-size: 36px;
+    color: black;
+    margin: 86px 0 110px 0;
+}
+
+.team-row__card {
+    max-width: 264px;
+    width: 100%;
+    margin-right: 31px;
+    margin-top: 10px;
+}
+
+.team-card {
+    max-width: 264px;
+    width: 100%;
+    max-height: 227px;
+}
+
+.team-row__card__text {
+    background-color: #2e4a5b;
+}
+
+.team-card__name {
+    font-size: 16px;
+    color: white;
+    padding: 17px 0px 13px 20px;
+}
+
+.team-card__job {
+    font-size: 13px;
+    color: #18cfab;
+    padding: 3px 0px 17px 20px;
+}
+
+.team-row__card__contact {
+    background-color: #2e4a5b;
+    margin-right: 1px;
+    max-width: 100%;
+    width: 65px;
+    max-height: 65px;
+    margin-top: 1px;
+}
+
+.team-row__card__contacts {
+    display: flex;
+}
+
+.facebook {
+    font-weight: 400;
+    padding: 23px;
+    font-size: 25px;
+    color: white;
+}
+
+.team-row__card:hover .team-card__job {
+    color: #2e4a5b;
+}
+
+.team-row__card:hover .team-row__card__text {
+    background-color:#18cfab ;
+}
+
+.team-row__card:hover .team-row__card__contact {
+    background-color:#18cfab ;
+}
+
+.team-row__card:hover .team-row__card__header {
+    background-color:black;
+}
+
+.team-row__card:hover .team-card {
+    background-color:black;
+    opacity: 0.7;
+}
+
+/*SEC12 creative-dz */
+
+    .creative-dz_bg {
+        max-width: 1900px;
+        width: 100%;
+        background: url(../images/bg-creative-dz.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    .creative-dz {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .creative-dz__title1 {
+        color: white;
+        font-size: 47px;
+        text-transform: uppercase;
+        margin-top:121px;
+    }
+    
+    .creative-dz__title2 {
+        color: #18cfab;
+        font-size: 47px;
+        text-transform: uppercase;
+        margin-top: 21px;
+        margin-bottom: 100px;
+    }
+
+    .creative-dz__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 427px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .creative-dz__list-item {
+        color: white;
+        line-height: 2.5em;
+        list-style: none;
+    }
+
+    .check-icon {
+        color: #18cfab;
+        font-size: 19px;
+        margin-right: 28px;
+        margin-top: 15px;
+    } 
+
+    .btn-creative-dz {
+        height: 60px;
+        max-width: 166px;
+        width: 100%;
+        background-color: #18cfab;
+        color: white;
+        margin-top: 60px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        margin-bottom: 211px;
+    }
+
+    .btn-creative-dz:hover {
+        box-shadow: 0px -4px 1px 0px white;
+    }
+
+@media (max-width: 768px) {
+    .creative-dz__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    
+    .creative-dz__title2 {
+        color: #18cfab;
+        font-size: 25px;
+        text-transform: uppercase;
+        margin-top: 21px;
+        margin-bottom: 100px;
+    }
+
+    .creative-dz__title1 {
+        color: white;
+        font-size: 25px;
+        text-transform: uppercase;
+        margin-top:121px;
+    }
+
+    .team-row__card__contact {
+        background-color: #2e4a5b;
+        margin-right: 1px;
+        width: 100%;
+        margin-top: 1px;
+        display: flex;
+        justify-content: center;
+    }
+    .team-row__card {
+        width: 100%;
+    }
+    .team-card {
+        width: 100%;
+        max-width: 100%;
+    }
+    .team-row__card {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .creative-dz__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+        padding: 0;
+        margin-left: 0;
+    }
+}  
+
+@media (max-width: 576px) {
+    .creative-dz__title1 {
+        color: white;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-top:121px;
+    }
+    
+    .creative-dz__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+        padding: 0;
+        margin-left: 0;
+    }
+    
+    .creative-dz__title2 {
+        color: #18cfab;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-top: 21px;
+        margin-bottom: 100px;
+    }
+    
+    .team-row__card__contact {
+        background-color: #2e4a5b;
+        margin-right: 1px;
+        width: 100%;
+        margin-top: 1px;
+        display: flex;
+        justify-content: center;
+    }
+    .team-row__card {
+        width: 100%;
+    }
+    .team-card {
+        width: 100%;
+        max-width: 100%;
+    }
+    .team-row__card {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
 @media (max-width: 992px) {
+    .creative-dz__title1 {
+        color: white;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-top:121px;
+    }
+    
+    .creative-dz__title2 {
+        color: #18cfab;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-top: 21px;
+        margin-bottom: 100px;
+    }
+    
+    .team-row {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
     .fanfacts-row {
         flex-wrap: wrap;
     }
@@ -924,6 +1208,9 @@ p.progress-bar-text {
 }
 
 @media (max-width: 1200px) {
+    .team-row {
+        flex-wrap: wrap;
+    }
     .card-row {
         flex-wrap: nowrap;
     }
@@ -958,6 +1245,14 @@ p.progress-bar-text {
 }
 
 @media (max-width: 992px) {
+    .creative-dz__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+        padding: 0;
+        margin-left: 0;
+    }
     .img-block {
         margin-top: 0px;
     }
@@ -967,6 +1262,15 @@ p.progress-bar-text {
 }
 
 @media (max-width: 768px) {
+    .creative-dz__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+        padding: 0;
+        margin-left: 0;
+    }
+    
     .img-block {
         margin-top: 0px;
     }
