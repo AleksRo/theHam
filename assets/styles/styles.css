@@ -745,6 +745,13 @@ p.progress-bar-text {
     font-size: 14px;
     color: #777777;
     padding: 16px 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.pricing__list__item:first-child {
+    border-top: 1px solid #e8eaea;
 }
 
 .pricing__price2 {
@@ -757,6 +764,7 @@ p.progress-bar-text {
     list-style: none;
     padding: 0px;
     text-align: center;
+    padding-top: 8px;
 }
 
 .btn__pricing {
@@ -1076,6 +1084,54 @@ p.progress-bar-text {
         box-shadow: 0px -4px 1px 0px white;
     }
 
+
+    /*SEC12 keep-in-out */
+    
+    ::placeholder { /* Most modern browsers support this now. */
+        color: #909;
+     }
+    
+    .form-keep-in-out {
+        width: 100%;
+        max-width: 555px;
+    }
+    
+    .keep-in-out__title {
+        font-size: 36px;
+        color: #4e4e4e;
+    }
+   
+    .form-keep {
+        border: 1px solid #d7e2e0;
+        padding: 13px;
+        margin-top: 15px;
+        width: 100%;
+        max-width: 555px;
+    }
+
+    .keep-form {
+        padding: 0;
+    }
+
+    .keep-row {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .img-keep {
+        display: block;
+        width: 100%;
+        max-height: 422px;
+        height: 100%;
+    }
+
+    .btn-keep {
+        width: 100%;
+        margin-top: 20px;
+        background-color: #18cfab;
+        color: white;
+    }
+
 @media (max-width: 768px) {
     .creative-dz__list{
         display: flex;
@@ -1270,7 +1326,16 @@ p.progress-bar-text {
         padding: 0;
         margin-left: 0;
     }
-    
+    .btn-work1:hover .arrow-btn {
+        content: '';
+        border: 10px solid transparent;
+        position: absolute;
+        border-bottom: 10px solid #18cfab;
+        position: absolute;
+        left: 32px;
+        top: 70px;
+        transform: rotate(180deg);
+    }
     .img-block {
         margin-top: 0px;
     }
