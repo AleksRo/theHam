@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro_head {
     background-color: #44433e;
-    max-width: 1900px;
+    max-width: 3840px;
     width: 100%;
 }
 
@@ -1132,7 +1132,85 @@ p.progress-bar-text {
         color: white;
     }
 
-@media (max-width: 768px) {
+
+    /* Section 13 footer */
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+    }
+     
+    .footer-bg {
+        background-color: #1c2b33;
+        max-width: 1900px;
+        width: 100%;
+    }
+    
+    .footer__logo {
+        font-size: 40px;
+        color: white;
+        margin-top: 129px;
+        margin-bottom: 29px;
+    }
+
+    .footer__logo1 {
+        font-size: 40px;
+        color: #18cfab;
+    }
+    
+    .footer__ham__discription {
+        font-size: 14px;
+        color: #b2b2b2;
+        width: 100%;
+        max-width: 310px;
+        line-height: 1.8em;
+        margin-bottom: 103px;
+    }
+    
+    .footer__contacts {
+        font-size: 14px;
+        color: #b2b2b2;
+        margin: 0;
+        line-height: 1.8em;
+    }
+
+    .footer__contacts__type {
+        font-size: 16px;
+        color: #b2b2b2;
+        margin: 0;
+        line-height: 1.8em;
+    }
+
+    #footer__type {
+        margin-top: 33px;
+    }
+
+    .footer-recent-post__title {
+        font-size: 18px;
+        color: white;
+        text-transform: uppercase;
+        margin-bottom: 47px;
+        margin-top: 124px;
+    }
+    
+    .footer-block {
+        margin-left: 26px;
+    }
+    
+    .recent-post__title {
+        font-size: 16px;
+        color: #18cfab ; 
+    }
+
+    .footer-recent-post__block {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    
+    
+    
+    @media (max-width: 768px) {
     .creative-dz__list{
         display: flex;
         flex-direction: column;
