@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro_head {
     background-color: #44433e;
-    max-width: 3840px;
+    max-width: 1900px;
     width: 100%;
 }
 
@@ -1117,9 +1117,15 @@ p.progress-bar-text {
         padding: 0;
     }
 
+    .form-block {
+        width: 100%;
+        margin-left: 28px;
+    }
+
     .keep-row {
         margin-top: 100px;
         margin-bottom: 100px;
+        display: flex;
     }
 
     .img-keep {
@@ -1136,6 +1142,10 @@ p.progress-bar-text {
         color: white;
     }
 
+    .map-block {
+        width: 100%;
+    }
+
 
     /* Section 13 footer */
 
@@ -1143,6 +1153,7 @@ p.progress-bar-text {
         display: flex;
         flex-direction: row;
         padding-bottom: 120px;
+        flex-wrap: wrap;
     }
      
     .footer-bg {
@@ -1244,6 +1255,7 @@ p.progress-bar-text {
         margin-bottom: 28px;
     }
 
+    
     .footer-tags {
         display: flex;
         flex-direction: column;
@@ -1338,8 +1350,6 @@ p.progress-bar-text {
         flex-direction: row;
     }
     
-    
-    
     .copyright-bg {
         background-color: #22353f;
         max-width: 1900px;
@@ -1411,6 +1421,16 @@ p.progress-bar-text {
         margin-bottom: 0;
         padding: 0;
         margin-left: 0;
+    }
+    .form-block {
+        width: 100%;
+        margin: 28px;
+    }
+    .keep-row {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: flex;
+        flex-wrap: wrap;
     }
 }  
 
@@ -1585,5 +1605,15 @@ p.progress-bar-text {
     }
     .text-creative {
         margin: 31px;
+    }
+    .form-block {
+        width: 100%;
+        margin: 28px;
+    }
+    .keep-row {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
